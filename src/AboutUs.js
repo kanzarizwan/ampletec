@@ -21,10 +21,11 @@ function AboutUs() {
         <h4>Your Gateway to Seamless and Dependable Connectivity.</h4>
     </div>
    
-     
-    <div className="sat-img">
-    <img  src={img3} alt="satellite image" />
-    </div>
+   {/* 
+  <div className="sat-img">
+    <img src={img3} alt="satellite image" />
+  </div>
+*/}
 
     </div>
       

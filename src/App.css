@@ -12,9 +12,10 @@
 .center-panel {
   position: relative;
   height: 600px;
-  width: 100%;
-  margin-top: 8%;
+  width: 100%; /* Set your desired maximum width */
+  margin: 0; /* Center the panel horizontally */
   z-index: 1; /* Set a lower z-index for the side image */
+  margin-top: 8%;
   margin-bottom: 12%;
   display: flex; /* Use flexbox to align items */
   align-items: center; /* Center items vertically */
@@ -45,7 +46,6 @@
   text-align: center;
   opacity: 0; /* Set initial opacity to 0 */
   animation: fadeIn 1.5s ease-in-out forwards;
-  padding: 5%;
   width: 100%; /* Ensure the width is 100% for responsiveness */
 }
 

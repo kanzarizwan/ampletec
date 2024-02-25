@@ -20,6 +20,7 @@ export default function App() {
         <img className='side-img' src={img2} alt="Side image" />
         <h1 className='main-info'> Seamless Communication, Limitless Possibilities.</h1>
       </div>
+      
     <AboutUs/>
 
     <Services />
