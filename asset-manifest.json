@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ampletec/static/css/main.b4643523.css",
-    "main.js": "/ampletec/static/js/main.b56baa0b.js",
-    "static/js/453.419a5d54.chunk.js": "/ampletec/static/js/453.419a5d54.chunk.js",
-    "static/media/img2.jpeg": "/ampletec/static/media/img2.55f1a0339b56573b5083.jpeg",
-    "static/media/img2.webp": "/ampletec/static/media/img2.c2c785f5f56051cd236f.webp",
-    "static/media/img3.png": "/ampletec/static/media/img3.b9fddaf32d55cdf7cc31.png",
-    "static/media/logo.png": "/ampletec/static/media/logo.737a3e8f12a23d26412a.png",
-    "index.html": "/ampletec/index.html",
-    "main.b4643523.css.map": "/ampletec/static/css/main.b4643523.css.map",
-    "main.b56baa0b.js.map": "/ampletec/static/js/main.b56baa0b.js.map",
-    "453.419a5d54.chunk.js.map": "/ampletec/static/js/453.419a5d54.chunk.js.map"
+    "main.css": "/static/css/main.b4643523.css",
+    "main.js": "/static/js/main.2429ae84.js",
+    "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
+    "static/media/img2.jpeg": "/static/media/img2.55f1a0339b56573b5083.jpeg",
+    "static/media/img2.webp": "/static/media/img2.c2c785f5f56051cd236f.webp",
+    "static/media/img3.png": "/static/media/img3.b9fddaf32d55cdf7cc31.png",
+    "static/media/logo.png": "/static/media/logo.737a3e8f12a23d26412a.png",
+    "index.html": "/index.html",
+    "main.b4643523.css.map": "/static/css/main.b4643523.css.map",
+    "main.2429ae84.js.map": "/static/js/main.2429ae84.js.map",
+    "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4643523.css",
-    "static/js/main.b56baa0b.js"
+    "static/js/main.2429ae84.js"
   ]
 }
