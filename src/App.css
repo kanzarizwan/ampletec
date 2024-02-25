@@ -1,0 +1,66 @@
+
+/* styles.css */
+
+/* Styling for the logo image */
+.logo-img {
+  position: absolute;
+  left:-7%;
+  width: 60%;
+  z-index: 2; /* Set a higher z-index for the logo */
+  margin-top: -29%;
+}
+
+.center-panel {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  margin-top: 8%;
+  z-index: 1; /* Set a lower z-index for the side image */
+  margin-bottom: 12%;
+
+}
+
+
+.headings{
+  color:#FFBD59; 
+  font-size: 2em;
+  padding-bottom: 6%;
+  margin-top: -10%;
+}
+
+
+/* Styling for the image */
+.side-img {
+  height: 600px;
+  filter: brightness(50%);
+  opacity: 90%;
+  width: 100%;
+
+}
+
+
+
+.main-info {
+  position: relative;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 4em;
+  z-index: 3;
+  margin-top: -30%;
+  opacity: 90%;
+  text-align: center;
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: fadeIn 1.5s ease-in-out forwards; 
+  padding: 5%;
+
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

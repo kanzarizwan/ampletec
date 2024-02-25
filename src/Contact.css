@@ -1,0 +1,34 @@
+.contact-toolbar {
+    background-color:  #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+    width: 100%;
+    padding-bottom: 2%;
+    padding-right: 4% 0; /* Adjust padding as needed */
+
+  }
+
+  .headings{
+    margin-left: 5%;
+  }
+
+  .contact-info {
+    display: flex;
+    align-items: center;
+  }
+
+
+
+  .contact-links a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+
+    /* Change color on hover */
+.contact-links a:hover {
+        background-color:#FFBD59; /* Choose your desired hover color */
+      }
+    
