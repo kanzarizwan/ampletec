@@ -25,14 +25,14 @@ function Contact() {
     <div class="contact-info">
       <div class="contact-icon">📞</div>
       <div class="contact-links">
-        <a href="tel:+123456789">+1 (234) 567-89</a>
+        <a href="tel:+123456789">TBA</a>
       </div>
     </div>
     
     <div class="contact-info">
       <div class="contact-icon">✉️</div>
       <div class="contact-links">
-        <a href="mailto:info@example.com">info@example.com</a>
+        <a href="mailto:rizwan@ampletechnology.ca">Email</a>
       </div>
     </div>
 
