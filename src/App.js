@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Header from './Header';
 import img2 from './assets/img2.jpeg'
-import logo from './assets/logo.png'
+import logo from './assets/logo2.png'
 import './App.css'
 import AboutUs from './AboutUs';
 import Services from './Services';
@@ -17,6 +17,7 @@ export default function App() {
     
 
       <div className='center-panel'  id="home">
+        
         <img className='side-img' src={img2} alt="Side image" />
         <h1 className='main-info'> Seamless Communication, Limitless Possibilities.</h1>
       </div>
@@ -27,6 +28,7 @@ export default function App() {
      
 
     <Contact/>
+  
 
   </div>
   );

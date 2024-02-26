@@ -1,0 +1,56 @@
+/* ContactForm.css */
+
+.form-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .form-popup label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .form-popup input,
+  .form-popup textarea {
+    width: calc(100% - 20px); /* Subtract the padding from the total width */
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+  .form-popup button {
+    background-color: #FFBD59; /* Set the background color to #FFBD59 */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Add border-radius for a curved appearance */
+    margin-right: 5px; /* Add margin to the right for spacing between buttons */
+  }
+  
+  .form-popup button:hover {
+    background-color: #EAAE38; /* Adjust the hover color as needed */
+  }
+  
+  .open-form-button {
+    background-color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Add border-radius for a curved appearance */
+  }
+  
+  .open-form-button:hover {
+    background-color: #EAAE38; /* Adjust the hover color as needed */
+  }
+  

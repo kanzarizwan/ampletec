@@ -8,7 +8,7 @@ body, h1, h2, h3, p, ul {
 
 /* Basic styling for the header */
 .header {
-  background-color: white; /* Choose your desired background color */
+  background-color:black; /* Choose your desired background color */
   color: #FFBD59; /* Choose your desired text color */
   padding: 10px;
 }
@@ -28,7 +28,7 @@ body, h1, h2, h3, p, ul {
 
 .nav a {
   display: block;
-  color: #333;
+  color:white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -37,6 +37,7 @@ body, h1, h2, h3, p, ul {
 /* Change color on hover */
 .nav a:hover {
   background-color: #FFBD59; /* Choose your desired hover color */
+  color: #333;
 }
 
 /* Styling for the navigation bar */

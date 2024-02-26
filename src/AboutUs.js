@@ -1,7 +1,6 @@
 import React from 'react'
 import './AboutUs.css'
-import img3 from './assets/img3.png'
-
+import img4 from './assets/voip-gif.gif'
 function AboutUs() {
   return (
     <div>
@@ -20,12 +19,8 @@ function AboutUs() {
         Experience the transformative power of reliable communication with Ample Technology Inc.</p>  <br></br>
         <h4>Your Gateway to Seamless and Dependable Connectivity.</h4>
     </div>
-   
-   {/* 
-  <div className="sat-img">
-    <img src={img3} alt="satellite image" />
-  </div>
-*/}
+
+
 
     </div>
       

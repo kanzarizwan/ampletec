@@ -1,12 +1,15 @@
 /* styles.css */
-
+body{
+  background-color: #000000;
+}
 /* Styling for the logo image */
 .logo-img {
   position: absolute;
   left: -7%;
-  width: 60%;
+  width: 50%;
   z-index: 2; /* Set a higher z-index for the logo */
-  margin-top: -29%;
+  margin-top: -22%;
+  margin-left: 2%;
 }
 
 .center-panel {
@@ -25,7 +28,7 @@
   color: #FFBD59;
   font-size: 2em;
   padding-bottom: 6%;
-  margin-top: -10%;
+  margin-top: -12%;
 }
 
 /* Styling for the image */

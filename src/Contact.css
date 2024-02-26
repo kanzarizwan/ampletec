@@ -1,5 +1,5 @@
 .contact-toolbar {
-    background-color:  #fff;
+    background-color: black;
     color: #fff;
     display: flex;
     justify-content: center; /* Center the content horizontally */
@@ -22,7 +22,7 @@
 
 
   .contact-links a {
-    color: #333;
+    color:#FFBD59; 
     text-decoration: none;
     margin-right: 20px;
   }

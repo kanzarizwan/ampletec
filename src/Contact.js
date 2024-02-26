@@ -1,7 +1,18 @@
+import { useState } from 'react'
 import React from 'react'
 import './Contact.css'
+import ContactForm from './ContactForm'
 
 function Contact() {
+  const [showContactForm, setShowContactForm] = useState(false);
+
+  const handleContactLinkClick = () => {
+    setShowContactForm(true);
+  };
+
+  const handleContactFormClose = () => {
+    setShowContactForm(false);
+  };
   return (
     <div>
       <h1 className='headings'  id="contact-us-section">Contact us</h1>
@@ -37,7 +48,17 @@ function Contact() {
       <div class="contact-links">
         <a href="https://www.linkedin.com/in/example" target="_blank">LinkedIn</a>
       </div>
+
     </div>
+    <div className="contact-info">
+          <div className="contact-icon"><i className="fab fa-linkedin"></i></div>
+          <div className="contact-links">
+            <a onClick={handleContactLinkClick}>Contact Form</a>
+          </div>
+        </div>
+
+        {showContactForm && <ContactForm onClose={handleContactFormClose} />}
+    
     </div>
     </div>
   )
