@@ -25,7 +25,7 @@ function Contact() {
     <div class="contact-info">
       <div class="contact-icon">📞</div>
       <div class="contact-links">
-        <a href="tel:+123456789">TBA</a>
+        <a href="tel:+16476855590">+1 647 685 5590</a>
       </div>
     </div>
     
@@ -37,16 +37,9 @@ function Contact() {
     </div>
 
     <div class="contact-info">
-      <div class="contact-icon"><i class="fab fa-facebook"></i></div>
-      <div class="contact-links">
-        <a href="https://www.facebook.com/example" target="_blank">Facebook</a>
-      </div>
-    </div>
-
-    <div class="contact-info">
       <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
       <div class="contact-links">
-        <a href="https://www.linkedin.com/in/example" target="_blank">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/rizwan-sattar-313a082b6/" target="_blank">LinkedIn</a>
       </div>
 
     </div>
